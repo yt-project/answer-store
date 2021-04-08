@@ -30,7 +30,7 @@ test_sedov_tunnel[0-None-density-density-sedov/sedov_tst_0004.h5]:
   grid_values: 147d5763278c5be638d85fb80b8dce20
   parentage_relationships: cb748cfce206f5b72ccf747e4f864ef0
   projection_values: 19d3a93742c087203b4c1c43501cc7b5
-  weight: density
+  weight: ('gas', 'density')
 test_sedov_tunnel[0-None-density-vx-sedov/sedov_tst_0004.h5]:
   axis: '0'
   dobj: None
@@ -41,7 +41,7 @@ test_sedov_tunnel[0-None-density-vx-sedov/sedov_tst_0004.h5]:
   grid_values: 519af72dfb9b28c6e9eef1a1d3c47a28
   parentage_relationships: cb748cfce206f5b72ccf747e4f864ef0
   projection_values: 22a370419fe6b95b9082c51656d3f8d5
-  weight: density
+  weight: ('gas', 'density')
 test_sedov_tunnel[0-sphere-None-density-sedov/sedov_tst_0004.h5]:
   axis: '0'
   dobj: ('sphere', ('max', (0.1, 'unitary')))
@@ -74,7 +74,7 @@ test_sedov_tunnel[0-sphere-density-density-sedov/sedov_tst_0004.h5]:
   grid_values: 147d5763278c5be638d85fb80b8dce20
   parentage_relationships: cb748cfce206f5b72ccf747e4f864ef0
   projection_values: 5daeca65c688988462684455e55f937b
-  weight: density
+  weight: ('gas', 'density')
 test_sedov_tunnel[0-sphere-density-vx-sedov/sedov_tst_0004.h5]:
   axis: '0'
   dobj: ('sphere', ('max', (0.1, 'unitary')))
@@ -85,7 +85,7 @@ test_sedov_tunnel[0-sphere-density-vx-sedov/sedov_tst_0004.h5]:
   grid_values: 519af72dfb9b28c6e9eef1a1d3c47a28
   parentage_relationships: cb748cfce206f5b72ccf747e4f864ef0
   projection_values: dccfabb99d70587d9b9fb3a45df75ae9
-  weight: density
+  weight: ('gas', 'density')
 test_sedov_tunnel[1-None-None-density-sedov/sedov_tst_0004.h5]:
   axis: '1'
   dobj: None
@@ -118,7 +118,7 @@ test_sedov_tunnel[1-None-density-density-sedov/sedov_tst_0004.h5]:
   grid_values: 147d5763278c5be638d85fb80b8dce20
   parentage_relationships: cb748cfce206f5b72ccf747e4f864ef0
   projection_values: cca92c0a4e79f6055de2e881319209e6
-  weight: density
+  weight: ('gas', 'density')
 test_sedov_tunnel[1-None-density-vx-sedov/sedov_tst_0004.h5]:
   axis: '1'
   dobj: None
@@ -129,7 +129,7 @@ test_sedov_tunnel[1-None-density-vx-sedov/sedov_tst_0004.h5]:
   grid_values: 519af72dfb9b28c6e9eef1a1d3c47a28
   parentage_relationships: cb748cfce206f5b72ccf747e4f864ef0
   projection_values: 4839ac9a159532b3b8339c0f2c1c0052
-  weight: density
+  weight: ('gas', 'density')
 test_sedov_tunnel[1-sphere-None-density-sedov/sedov_tst_0004.h5]:
   axis: '1'
   dobj: ('sphere', ('max', (0.1, 'unitary')))
@@ -162,7 +162,7 @@ test_sedov_tunnel[1-sphere-density-density-sedov/sedov_tst_0004.h5]:
   grid_values: 147d5763278c5be638d85fb80b8dce20
   parentage_relationships: cb748cfce206f5b72ccf747e4f864ef0
   projection_values: 9bf7eea44991d8d9a38dffd243cc9d09
-  weight: density
+  weight: ('gas', 'density')
 test_sedov_tunnel[1-sphere-density-vx-sedov/sedov_tst_0004.h5]:
   axis: '1'
   dobj: ('sphere', ('max', (0.1, 'unitary')))
@@ -173,7 +173,7 @@ test_sedov_tunnel[1-sphere-density-vx-sedov/sedov_tst_0004.h5]:
   grid_values: 519af72dfb9b28c6e9eef1a1d3c47a28
   parentage_relationships: cb748cfce206f5b72ccf747e4f864ef0
   projection_values: 58d7cf8b581aca68cda03972a0a52b7c
-  weight: density
+  weight: ('gas', 'density')
 test_sedov_tunnel[2-None-None-density-sedov/sedov_tst_0004.h5]:
   axis: '2'
   dobj: None
@@ -206,7 +206,7 @@ test_sedov_tunnel[2-None-density-density-sedov/sedov_tst_0004.h5]:
   grid_values: 147d5763278c5be638d85fb80b8dce20
   parentage_relationships: cb748cfce206f5b72ccf747e4f864ef0
   projection_values: 14468f0294a6f2cdf5dd875c24048d90
-  weight: density
+  weight: ('gas', 'density')
 test_sedov_tunnel[2-None-density-vx-sedov/sedov_tst_0004.h5]:
   axis: '2'
   dobj: None
@@ -217,7 +217,7 @@ test_sedov_tunnel[2-None-density-vx-sedov/sedov_tst_0004.h5]:
   grid_values: 519af72dfb9b28c6e9eef1a1d3c47a28
   parentage_relationships: cb748cfce206f5b72ccf747e4f864ef0
   projection_values: ed5fc404dac1960162f600fc3957f478
-  weight: density
+  weight: ('gas', 'density')
 test_sedov_tunnel[2-sphere-None-density-sedov/sedov_tst_0004.h5]:
   axis: '2'
   dobj: ('sphere', ('max', (0.1, 'unitary')))
@@ -250,7 +250,7 @@ test_sedov_tunnel[2-sphere-density-density-sedov/sedov_tst_0004.h5]:
   grid_values: 147d5763278c5be638d85fb80b8dce20
   parentage_relationships: cb748cfce206f5b72ccf747e4f864ef0
   projection_values: 6b13263385e4ae6ec401681dbafd94bf
-  weight: density
+  weight: ('gas', 'density')
 test_sedov_tunnel[2-sphere-density-vx-sedov/sedov_tst_0004.h5]:
   axis: '2'
   dobj: ('sphere', ('max', (0.1, 'unitary')))
@@ -261,4 +261,4 @@ test_sedov_tunnel[2-sphere-density-vx-sedov/sedov_tst_0004.h5]:
   grid_values: 519af72dfb9b28c6e9eef1a1d3c47a28
   parentage_relationships: cb748cfce206f5b72ccf747e4f864ef0
   projection_values: 4e5f60fae2d80d98541258d87f3ba0bd
-  weight: density
+  weight: ('gas', 'density')
